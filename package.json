@@ -1,0 +1,25 @@
+{
+  "name": "web-development-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "mongoose": "^6.3.6",
+    "mongoose-unique-validator": "^3.1.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.16"
+  }
+}
